@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Media Ranking</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <h1>ICANTECH Media Ranking</h1>
+
+    <div class="search-box">
+      <input type="text" id="searchName" placeholder="Tìm theo tên" />
+
+      <select id="searchType">
+        <option value="all">Tất cả</option>
+        <option value="music">Nhạc</option>
+        <option value="short">Phim ngắn</option>
+        <option value="long">Phim dài</option>
+      </select>
+
+      <select id="searchRating">
+        <option value="all">Rating</option>
+        <option value="10">10 ⭐</option>
+        <option value="9">9 ⭐</option>
+        <option value="8">8 ⭐</option>
+        <option value="7">7 ⭐</option>
+        <option value="6">6 ⭐</option>
+        <option value="5">5 ⭐</option>
+        <option value="4">4 ⭐</option>
+      </select>
+
+      <button id="searchBtn">Tìm kiếm</button>
+    </div>
+
+    <div id="media-ls"></div>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
