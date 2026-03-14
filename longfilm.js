@@ -1,8 +1,8 @@
 import { Media } from "./media.js";
 
 export class LongFilm extends Media {
-  constructor(name, picture, rating, episode) {
-    super(name, picture, rating);
+  constructor(name, picture, rating, type, episode) {
+    super(name, picture, rating, type);
     this.episode = episode;
   }
 
