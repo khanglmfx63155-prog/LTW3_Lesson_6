@@ -15,7 +15,7 @@ let mediaArray = [
     "Có đâu ai ngờ",
     "./asset/codauaingobg.jpg",
     8,
-    "./media/codauaingo.mp3",
+    "./media/codauaingo.mp3"
   ),
 
   new Song("Đom Đóm", "./asset/domdombg.jpg", 4, "./media/domdom.mp3"),
@@ -24,7 +24,7 @@ let mediaArray = [
     "Đường tôi chở em về",
     "./asset/duongtoichoemvebg.jpg",
     10,
-    "./media/duongtoichoemve.mp3",
+    "./media/duongtoichoemve.mp3"
   ),
 
   new Song("Em Mây", "./asset/emmaybg.jpg", 10, "./media/emmay.mp3"),
@@ -72,11 +72,7 @@ function searchMedia() {
 
     if (rating !== "all") {
       matchRating = media.rating == rating;
-<<<<<<< HEAD
-      console.log("matchRating" + " : " + matchRating);
-=======
-      console.log(matchRati/ng);
->>>>>>> b9143b499a8ac2d1a811b26a39206bacef198786
+      console.log(matchRating);
     }
 
     return matchName && matchType && matchRating;
