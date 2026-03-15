@@ -67,7 +67,7 @@ function searchMedia() {
 
     if (rating !== "all") {
       matchRating = media.rating == rating;
-      console.log(matchRating);
+      console.log(matchRati/ng);
     }
 
     return matchName && matchType && matchRating;
