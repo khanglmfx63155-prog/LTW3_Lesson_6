@@ -72,7 +72,11 @@ function searchMedia() {
 
     if (rating !== "all") {
       matchRating = media.rating == rating;
+<<<<<<< HEAD
       console.log("matchRating" + " : " + matchRating);
+=======
+      console.log(matchRati/ng);
+>>>>>>> b9143b499a8ac2d1a811b26a39206bacef198786
     }
 
     return matchName && matchType && matchRating;
